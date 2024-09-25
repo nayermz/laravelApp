@@ -4,7 +4,7 @@
 <a class="btn btn-primary" href="#">Nueva publicación</a>
 
 @if($posts->isEmpty())
-    <p>No hay publicaciones en la BD.</p>
+    <p>No hay publicaciones en la Base de datos.</p>
 @else
     <div class="row">
         @foreach($posts as $post)
